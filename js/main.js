@@ -7,7 +7,18 @@ $(function() {
   var jokes = ["Faz cosplay de android que eu vou fazer cosplay de ios",
                "Vou jogar um dado assistindo porn",
                "Se eu tenho um dinossaurinho de plástico, na verdade é um dinossauro morto",
-               "Tá matando a mulher... matando de amor"
+               "Tá matando a mulher... matando de amor",
+               "Sabia que eu sou garoto de programa?",
+               "Eu não vou mais casar, agora tô só por namorinho",
+               "Troquei meu pc pelo meu próprio notebook",
+               "Alguém quer um freela aí?",
+               "Boquete é o melhor",
+               "Mas não cheguei a ser nem friend, quem dirá então na zone",
+               "É ruim quando o cara senta no vaso e o pau bate na laje",
+               "I'm too hot",
+               "Quase na hora de comer o biscoitinho do William",
+               "Alguém quer ver uma foto da cabeça da minha rola?",
+               "Quero dar top e bottom"
               ];
   var imageInUse;
   var jokeInUse;
