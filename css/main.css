@@ -12,4 +12,23 @@ body {
   width: 1024px;
   height: 768px;
   background-size: cover;
+  z-index: 2;
+}
+
+.simContainer {
+  position: absolute;
+  width: 100%;
+  top: 88px;
+  right: 82px;
+  z-index: 1;
+}
+
+.currentSim {
+  background-position: center !important;
+  background-size: contain !important;
+  display: block;
+  margin: auto;
+  position: relative;
+  width: 640px;
+  height: 640px;
 }
