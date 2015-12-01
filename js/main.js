@@ -1,7 +1,8 @@
 $(function() {
 
   /// GLOBAL VARS BEGIN /// 
-  var simImages = ["barbie.png", "batman.png", "cowboy.png", "news.png", "pizza.png", "tekpix.png", "television.png"];
+  var simImages = ["barbie.png", "batman.png", "cowboy.png", "news.png", "pizza.png", "tekpix.png"];
+  var positionText = [[395, 55], [130, 338], [125, 62], [135, 365], [370, 355], [368, 70], ];
   var imagePath = "./assets/optimized/";
   var imageInUse;
   /// GLOBAL VARS END ///
@@ -21,12 +22,16 @@ $(function() {
 
   function refreshImage() {
     var currentSim = $(".currentSim");
-    var newImageId = Math.floor(Math.random() * 6);
+    var newImageId = Math.floor(Math.random() * 5);
     var newImage = simImages[newImageId];
+    var newTextPosTop = positionText[newImageId][0];
+    var newTextPosLeft = positionText[newImageId][1];
+    var simText = $("#simText");
 
     if(imageInUse != newImage) {
       currentSim.css("background", "url(" + imagePath + newImage + ") no-repeat");
       imageInUse = newImage;
+      simText.css({"top" : newTextPosTop, "left" : newTextPosLeft});
     } else {
       refreshImage();
     }

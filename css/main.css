@@ -45,3 +45,14 @@ body {
   width: 640px;
   height: 640px;
 }
+
+#simText {
+  position: absolute;
+  z-index: 3;
+  color: black;
+  display: block;
+  width: 231px;
+  font-family: sans-serif;
+  top: 395px;
+  left: 55px;
+}
