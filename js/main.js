@@ -2,7 +2,7 @@ $(function() {
 
   /// GLOBAL VARS BEGIN ///
   var simImages = ["barbie.png", "batman.png", "cowboy.png", "news.png", "pizza.png", "tekpix.png", "television.png"];
-  var imagePath = "./assets/";
+  var imagePath = "./assets/optimized/";
   var imageInUse;
   /// GLOBAL VARS END ///
 
