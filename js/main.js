@@ -18,7 +18,13 @@ $(function() {
                "I'm too hot",
                "Quase na hora de comer o biscoitinho do William",
                "Alguém quer ver uma foto da cabeça da minha rola?",
-               "Quero dar top e bottom"
+               "Quero dar top e bottom",
+               "Calma ae, minha primeira vez",
+               "Ela só viu meus glúteos",
+               "Tem que esperar a tiazinha do cruzeiro das loucas ligar neh",
+               "Juro que li pênis",
+               "Tô indo, preciso comer as 3",
+               "Me sinto um enorme de um grande de um cocô"
               ];
   var imageInUse;
   var jokeInUse;
